@@ -31,6 +31,7 @@
 		00E356EE1AD99517003FC87E /* CarefreeHealthAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarefreeHealthAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CarefreeHealthAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarefreeHealthAppTests.m; sourceTree = "<group>"; };
+		04E62C19FEB246DD9818C5CE /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = ../assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CarefreeHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarefreeHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CarefreeHealthApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CarefreeHealthApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -39,14 +40,34 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CarefreeHealthApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = CarefreeHealthApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CarefreeHealthApp-CarefreeHealthAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarefreeHealthApp-CarefreeHealthAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22293FE3C9B5126185737896 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = CarefreeHealthApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1C0223A481804C79853B88CC /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		22293FE3C9B5126185737896 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = CarefreeHealthApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		23DE7BA0E01A4792B688B115 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = ../assets/fonts/Feather.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-CarefreeHealthApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarefreeHealthApp.debug.xcconfig"; path = "Target Support Files/Pods-CarefreeHealthApp/Pods-CarefreeHealthApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3C67FBF4BCB54D21AB446C76 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		4379DC397DC8421A836B2DE2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		4AFEBE5DF2114060A24FBAD5 /* MontserratSubrayada-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratSubrayada-Bold.ttf"; path = "../assets/fonts/MontserratSubrayada-Bold.ttf"; sourceTree = "<group>"; };
+		4D23553960CF41E6817E54E9 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = ../assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		50BCB2487B464C8E86FCCAC6 /* MontserratSubrayada-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratSubrayada-Regular.ttf"; path = "../assets/fonts/MontserratSubrayada-Regular.ttf"; sourceTree = "<group>"; };
+		516EF714A98B406CB8B4C722 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = ../assets/fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		53BD52B5B75F478FB69918F8 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome6_Regular.ttf; path = ../assets/fonts/FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-CarefreeHealthApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarefreeHealthApp.release.xcconfig"; path = "Target Support Files/Pods-CarefreeHealthApp/Pods-CarefreeHealthApp.release.xcconfig"; sourceTree = "<group>"; };
+		5ACAAAF507444F6092F2BB72 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = ../assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-CarefreeHealthApp-CarefreeHealthAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarefreeHealthApp-CarefreeHealthAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CarefreeHealthApp-CarefreeHealthAppTests/Pods-CarefreeHealthApp-CarefreeHealthAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-CarefreeHealthApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarefreeHealthApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		706A8319E8F54C84B5DC7B48 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome6_Brands.ttf; path = ../assets/fonts/FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		7A106F86F6D247EEA2D080EA /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome6_Solid.ttf; path = ../assets/fonts/FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		7A9A4CC787E442A8BAF7F45E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CarefreeHealthApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86F8DF5CEE3A4C24960FAB95 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = ../assets/fonts/Octicons.ttf; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-CarefreeHealthApp-CarefreeHealthAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarefreeHealthApp-CarefreeHealthAppTests.release.xcconfig"; path = "Target Support Files/Pods-CarefreeHealthApp-CarefreeHealthAppTests/Pods-CarefreeHealthApp-CarefreeHealthAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BD8455D3B7340E2B7692BD1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = ../assets/fonts/Zocial.ttf; sourceTree = "<group>"; };
+		B4ADFD95E5404EB3A97B8BE7 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = ../assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
+		E212A2C3C4374FF4935EB153 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = ../assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED6D7F7D774B47DA90348729 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = ../assets/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		FBCA10C9475A4E12A255754A /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = ../assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
+		FCF1EBE9A2B040218D7AF54B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +107,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0B6FFDC42CAEC36000518294 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* CarefreeHealthApp */ = {
 			isa = PBXGroup;
 			children = (
+				0B6FFDC42CAEC36000518294 /* CustomFonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -111,6 +140,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2D369BCB0D4A43CBA12881EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AFEBE5DF2114060A24FBAD5 /* MontserratSubrayada-Bold.ttf */,
+				50BCB2487B464C8E86FCCAC6 /* MontserratSubrayada-Regular.ttf */,
+				FBCA10C9475A4E12A255754A /* AntDesign.ttf */,
+				7A9A4CC787E442A8BAF7F45E /* Entypo.ttf */,
+				4D23553960CF41E6817E54E9 /* EvilIcons.ttf */,
+				23DE7BA0E01A4792B688B115 /* Feather.ttf */,
+				5ACAAAF507444F6092F2BB72 /* FontAwesome.ttf */,
+				04E62C19FEB246DD9818C5CE /* FontAwesome5_Brands.ttf */,
+				ED6D7F7D774B47DA90348729 /* FontAwesome5_Regular.ttf */,
+				516EF714A98B406CB8B4C722 /* FontAwesome5_Solid.ttf */,
+				706A8319E8F54C84B5DC7B48 /* FontAwesome6_Brands.ttf */,
+				53BD52B5B75F478FB69918F8 /* FontAwesome6_Regular.ttf */,
+				7A106F86F6D247EEA2D080EA /* FontAwesome6_Solid.ttf */,
+				1C0223A481804C79853B88CC /* Fontisto.ttf */,
+				B4ADFD95E5404EB3A97B8BE7 /* Foundation.ttf */,
+				3C67FBF4BCB54D21AB446C76 /* Ionicons.ttf */,
+				FCF1EBE9A2B040218D7AF54B /* MaterialCommunityIcons.ttf */,
+				4379DC397DC8421A836B2DE2 /* MaterialIcons.ttf */,
+				86F8DF5CEE3A4C24960FAB95 /* Octicons.ttf */,
+				E212A2C3C4374FF4935EB153 /* SimpleLineIcons.ttf */,
+				8BD8455D3B7340E2B7692BD1 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +184,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				2D369BCB0D4A43CBA12881EA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
