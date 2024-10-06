@@ -5,7 +5,7 @@ import { SafeAreaView, StatusBar, StyleSheet, useColorScheme } from 'react-nativ
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {NavigationContainer} from '@react-navigation/native';
-import { RootStackNavigator } from './components/Navigator/RootStackNavigator/RootStackNavigator';
+import { RootStackNavigator } from '@/components/navigator/RootStackNavigator/RootStackNavigator';
 import SplashScreen from "react-native-splash-screen";
 
 function App(): React.JSX.Element {
@@ -17,12 +17,12 @@ function App(): React.JSX.Element {
   
   useEffect(() => {
       SplashScreen.hide();
-  });
+  },[]);
 
   return (
     <GluestackUIProvider mode="light">
       <NavigationContainer>
-        <SafeAreaView style={styles.constainer}>
+        <SafeAreaView style={styles.container}>
           <RootStackNavigator />
         </SafeAreaView>
       </NavigationContainer>
@@ -31,7 +31,7 @@ function App(): React.JSX.Element {
 }
 
 const styles = StyleSheet.create({
-  constainer: {
+  container: {
     flex: 1,
   }
 });

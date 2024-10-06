@@ -59,10 +59,10 @@ const styles = StyleSheet.create({
       justifyContent: "space-around"
     },
     button_group: {
-      flex: 1
+      flex: 0.5
     },
     iconbutton: {
-      flex: 0.5,
+      flex: 0.2,
       color: "black",
       backgroundColor: "white",
       alignItems: "center",

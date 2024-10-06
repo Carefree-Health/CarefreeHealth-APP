@@ -9,7 +9,7 @@ import {
   ActionsheetItemText,
   ActionsheetIcon,
 } from '@/components/ui/actionsheet';
-import { Button, ButtonText } from '../ui/button';
+import { Button, ButtonText } from '../../ui/button';
 
 interface ActionsheetProps<T> {
   title: string;

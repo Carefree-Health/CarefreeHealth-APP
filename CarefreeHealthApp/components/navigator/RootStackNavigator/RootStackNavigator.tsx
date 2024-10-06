@@ -1,5 +1,5 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import MainTabNavigator from '../../MainBottomTab/MainBottomTab';
+import MainTabNavigator from '@/components/common/MainBottomTab/MainBottomTab';
 
 
 const Stack = createNativeStackNavigator();

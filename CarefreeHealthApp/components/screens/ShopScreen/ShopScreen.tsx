@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native'
 import { Text, Button, View } from 'react-native'
-import useCarefreeNavigation from '../../Navigator/hooks/useCarefreeNavigation';
+import useCarefreeNavigation from '@/components/navigator/hooks/useCarefreeNavigation';
 
 export default function ShopScreen() {
 

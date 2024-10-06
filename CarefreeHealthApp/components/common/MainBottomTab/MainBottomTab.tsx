@@ -1,9 +1,9 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import DailyExerciseScreen from '../Screens/DailyExerciseScreen/DailyExerciseScreen';
-import CommunityScreen from '../Screens/CommunityScreen/CommunityScreen';
-import MyPageScreen from '../Screens/MyPageScreen/MyPageScreen';
-import ShopScreen from '../Screens/ShopScreen/ShopScreen';
-import MainScreen from '../Screens/MainScreen/MainScreen';
+import DailyExerciseScreen from '@/components/screens/DailyExerciseScreen/DailyExerciseScreen.tsx';
+import CommunityScreen from '@/components/screens/CommunityScreen/CommunityScreen.tsx';
+import MyPageScreen from '@/components/screens/MyPageScreen/MyPageScreen.tsx';
+import ShopScreen from '@/components/screens/ShopScreen/ShopScreen.tsx';
+import MainScreen from '@/components/screens/MainScreen/MainScreen.tsx';
 import MatIcon from 'react-native-vector-icons/MaterialIcons';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 import IoniIcon from 'react-native-vector-icons/Ionicons';
