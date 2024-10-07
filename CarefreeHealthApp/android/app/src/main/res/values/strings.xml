@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">CarefreeHealthApp</string>
+    <string name="app_name">carefreehealthapp</string>
+    <string name="kakao_app_key">ffed0194fdd42580ea3571b6662e95d0</string>
 </resources>

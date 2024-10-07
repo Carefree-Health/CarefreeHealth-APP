@@ -16,7 +16,7 @@ export default function MainScreen() {
         <SafeAreaView style={styles.container}>
             <ScrollView aria-label='메인 화면'>
                 <Header />
-                <TopEventModal imgUrl='https://picsum.photos/600/300'/>
+                {/*<TopEventModal imgUrl='https://picsum.photos/600/300'/>*/}
                 <MainCarousel />
                 <FastStart />
                 <ActiveUsers />

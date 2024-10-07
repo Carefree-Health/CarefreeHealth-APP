@@ -7,8 +7,11 @@ import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {NavigationContainer} from '@react-navigation/native';
 import { RootStackNavigator } from '@/components/navigator/RootStackNavigator/RootStackNavigator';
 import SplashScreen from "react-native-splash-screen";
+import { initializeKakaoSDK } from '@react-native-kakao/core';
 
 function App(): React.JSX.Element {
+
+  initializeKakaoSDK('ffed0194fdd42580ea3571b6662e95d0');
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
