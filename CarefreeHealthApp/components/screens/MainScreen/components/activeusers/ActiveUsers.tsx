@@ -1,11 +1,11 @@
-import {FlatList, SafeAreaView, ScrollView, StyleSheet, View} from "react-native";
+import {FlatList, SafeAreaView, StyleSheet, View} from "react-native";
 import {Heading} from "@/components/ui/heading";
 import * as React from "react";
 import {Card} from "@/components/ui/card";
-import {Button, ButtonGroup, ButtonIcon, ButtonText} from "@/components/ui/button";
+import {Button, ButtonIcon, ButtonText} from "@/components/ui/button";
 import {mockActiveUsers} from "@/mock/mockActiveUsers.ts";
-import ActiveUserButton from "@/components/main/activeusers/ActiveUserButton.tsx";
 import {ArrowRightIcon} from "@/components/ui/icon";
+import ActiveUserButton from "@/components/screens/MainScreen/components/activeusers/ActiveUserButton.tsx";
 
 
 export default function ActiveUsers() {

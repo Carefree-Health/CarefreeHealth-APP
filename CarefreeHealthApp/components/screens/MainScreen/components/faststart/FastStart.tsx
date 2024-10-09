@@ -22,7 +22,7 @@ export default function FastStart () {
             <Card className="p-5 rounded-lg max-w-[360px] m-3" style={styles.cardContainer} variant='filled'>
                 <Pressable style={styles.getStartButton} onPress={() => console.log('pressed fast start')}>
                     <Image
-                        source={require("../../../assets/images/common/start.png")}
+                        source={require("../../../../../assets/images/common/start.png")}
                         size="md"
                         alt='main-card-image'
                     />

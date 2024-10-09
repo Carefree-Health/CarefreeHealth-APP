@@ -1,3 +1,6 @@
+gradle.startParameter.excludedTaskNames.addAll(
+        gradle.startParameter.taskNames.findAll { it.contains("testClasses") }
+)
 buildscript {
     ext {
         buildToolsVersion = "34.0.0"
