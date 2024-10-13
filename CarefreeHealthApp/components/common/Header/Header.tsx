@@ -9,13 +9,18 @@ import {
 import { BellIcon, SearchIcon, SettingsIcon } from '@/components/ui/icon';
 import {useState} from "react";
 import CarefreeKakaoLoginToastButton from "@/components/common/Toast/CarefreeKakaoLoginToastButton.tsx";
+import LoginScreen from "@/components/screens/LoginScreen/LoginScreen.tsx";
+import useCarefreeNavigation from "@/components/navigator/hooks/useCarefreeNavigation.ts";
 
 export default function Header() {
 
     const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
+    const [isLoginButtonClicked, setIsLoginButtonClicked] = useState<boolean>(false);
+
+    const {navigation} = useCarefreeNavigation();
 
     const onLoginButtonClickHandler = () => {
-
+        navigation.navigate("Login")
     };
 
     return (

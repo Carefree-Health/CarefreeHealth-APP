@@ -2,16 +2,15 @@ import { StyleSheet, ScrollView, SafeAreaView } from 'react-native'
 import useCarefreeNavigation from '@/components/navigator/hooks/useCarefreeNavigation'
 import * as React from 'react';
 import Header from '@/components/common/Header/Header.tsx';
-import TopEventModal from '@/components/common/TopEventModal/top-event-modal';
 import MainCarousel from "@/components/common/Carousel/MainCarousel.tsx";
 import FastStart from "@/components/screens/MainScreen/components/faststart/FastStart.tsx";
 import ActiveUsers from "@/components/screens/MainScreen/components/activeusers/ActiveUsers.tsx";
-import CarouselCards from "@/components/common/Carousel/TestCarousel.tsx";
-
+import {useState} from "react";
 
 export default function MainScreen() {
 
     const { navigation } = useCarefreeNavigation();
+    const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
 
     return (
         <SafeAreaView style={styles.container}>
@@ -19,7 +18,6 @@ export default function MainScreen() {
                 <Header />
                 {/*<TopEventModal imgUrl='https://picsum.photos/600/300'/>*/}
                 <MainCarousel />
-                {/*<CarouselCards />*/}
                 <FastStart />
                 <ActiveUsers />
             </ScrollView>

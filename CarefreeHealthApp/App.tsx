@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import "./global.css";
 import { GluestackUIProvider } from "@/components/ui/gluestack-ui-provider";
-import { SafeAreaView, StyleSheet, useColorScheme } from 'react-native';
-
+import { SafeAreaView, StyleSheet } from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import { RootStackNavigator } from '@/components/navigator/RootStackNavigator/RootStackNavigator';
 import SplashScreen from "react-native-splash-screen";

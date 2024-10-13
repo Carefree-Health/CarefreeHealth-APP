@@ -1,10 +1,8 @@
-import { Text, View } from 'react-native'
+import React, {useEffect} from "react";
 
 export default function CommunityScreen() {
 
     return (
-        <View>
-            <Text>CommunityScreen</Text>
-        </View>
+        <></>
     )
 }

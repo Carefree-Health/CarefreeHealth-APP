@@ -1584,6 +1584,8 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - RNPermissions (5.0.0):
+    - React-Core
   - RNReanimated (3.15.4):
     - DoubleConversion
     - glog
@@ -1767,6 +1769,7 @@ DEPENDENCIES:
   - "RNCKakaoCore (from `../node_modules/@react-native-kakao/core`)"
   - "RNCKakaoUser (from `../node_modules/@react-native-kakao/user`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNPermissions (from `../node_modules/react-native-permissions`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNSVG (from `../node_modules/react-native-svg`)
@@ -1917,6 +1920,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-kakao/user"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNPermissions:
+    :path: "../node_modules/react-native-permissions"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
@@ -2000,6 +2005,7 @@ SPEC CHECKSUMS:
   RNCKakaoCore: 247950eec77e40b04ea58528850cdf6ae17571d1
   RNCKakaoUser: 5140e32e7bfa8360983f18c670102cf857292ff9
   RNGestureHandler: 6dfe7692a191ee224748964127114edf057a1475
+  RNPermissions: d6b630aeb20d688a5973c66ff64d2a38d800c12a
   RNReanimated: 6e79f3e3b37a88cddfb38525e9652aabd7c4c750
   RNScreens: 19719a9c326e925498ac3b2d35c4e50fe87afc06
   RNSVG: 07dbd870b0dcdecc99b3a202fa37c8ca163caec2
@@ -2007,6 +2013,6 @@ SPEC CHECKSUMS:
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 4ef80d96a5534f0e01b3055f17d1e19a9fc61b63
 
-PODFILE CHECKSUM: ef6e90b6fd30165e94ae2419bf209033bd9bd29d
+PODFILE CHECKSUM: eabc5757a93d1deea6ff9ce2453500e0f0c52235
 
 COCOAPODS: 1.15.2

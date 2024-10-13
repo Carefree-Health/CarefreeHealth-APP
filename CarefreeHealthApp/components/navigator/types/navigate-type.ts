@@ -5,15 +5,15 @@ export type NavigationPropType<T> = {
   params?: ValueOf<T>;
 };
 
-export type RootStackParamList = {
-    // SignStack?: NavigationPropType<SignStackParamList>;
-    GymDetail: {gymId: string;};
-    MyPoint: undefined;
-    MyCoupon: undefined;
-    MyFavorite: undefined;
-    MyMembership?: {membershipId?: string};
-    // ...
-};
+// export type RootStackParamList = {
+//     SignStack?: NavigationPropType<SignStackParamList>;
+//     GymDetail: {gymId: string;};
+//     MyPoint: undefined;
+//     MyCoupon: undefined;
+//     MyFavorite: undefined;
+//     MyMembership?: {membershipId?: string};
+//     // ...
+// };
 
 export type MainTabParamList = {
     Main: undefined;
@@ -22,3 +22,7 @@ export type MainTabParamList = {
     Shop: undefined;
     MyPage: undefined;
 };
+
+export type SignStackParamList = {
+    Login: undefined;
+}
