@@ -24,7 +24,7 @@ export default function MainCarousel () {
     return (
         <View>
             <Carousel
-                pagingEnabled={true}
+                // pagingEnabled={true}
                 ref={ref}
                 loop
                 width={width}

@@ -8,12 +8,12 @@ const Stack = createNativeStackNavigator();
 
 export const RootStackNavigator = () => {
     return (
-        <Stack.Navigator>
-            {/*<Stack.Screen*/}
-            {/*    name="Login"*/}
-            {/*    component={LoginScreen}*/}
-            {/*    options={{headerShown: false}}*/}
-            {/*/>*/}
+        <Stack.Navigator initialRouteName={'MainTabNavigator'}>
+            <Stack.Screen
+                name="Login"
+                component={LoginScreen}
+                options={{headerShown: false}}
+            />
             <Stack.Screen
                 name="MainTabNavigator"
                 component={MainTabNavigator}
